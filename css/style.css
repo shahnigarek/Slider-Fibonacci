@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+img{
+    width: 100%;
+}
+#slider{
+    position: relative;
+}
+.next{
+    position: absolute;
+    top:50%;
+    right: 20px;
+    transform: translateY(-50%);
+    font-size: 50px;
+    color:rgb(177, 165, 149);
+    cursor: pointer;
+}
+.previous{
+    position: absolute;
+    top:50%;
+    left: 20px;
+    transform: translateY(-50%);
+    font-size: 50px;
+    color:rgb(177, 165, 149);
+    cursor: pointer;
+}
